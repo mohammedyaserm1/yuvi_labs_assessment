@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/mobile_frame.dart';
+
 void main() {
   runApp(const CalorieApp());
 }
@@ -23,22 +25,7 @@ class DesktopPreview extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFEDEFF0),
-      body: Center(
-        child: Container(
-          width: 352,
-          height: 755,
-          decoration: BoxDecoration(
-            color: const Color(0xFFF7F7F7),
-            borderRadius: BorderRadius.circular(42),
-            border: Border.all(
-              color: Colors.white,
-              width: 4,
-            ),
-          ),
-          clipBehavior: Clip.hardEdge,
-          child: const HomeScreen(),
-        ),
-      ),
+      body: const Center(child: MobileFrame()),
     );
   }
 }
