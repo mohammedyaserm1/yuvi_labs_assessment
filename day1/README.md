@@ -1,17 +1,18 @@
-# day1
+# Day 1 - building basic UI of first image.
 
-A new Flutter project.
+## Today's Objective
 
-## Getting Started
+    To create a basic UI from first image using AI and learn simultaneously how the code works as I create
 
-This project is a starting point for a Flutter application.
+## Status
 
-A few resources to get you started if this is your first Flutter project:
+    Successfully Created the Header, Calorie Tracker and Nutrition Information widget.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Things learned
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    Today I learned about the StatelessWidget and StatefulWidget, How to set width, height, padding and colours.
+
+## Screenshot
+
+    The screenshot_day1 shows the first half page of the UI as in the first image provided in the mockup created by me with the help of AI.
+    
