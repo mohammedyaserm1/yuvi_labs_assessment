@@ -10,9 +10,8 @@
 
 ## Things learned
 
-    Today I learned about the StatelessWidget and StatefulWidget, How to set width, height, padding and colours.
+    Today I learned about How to set width, height, padding and colours.
 
 ## Screenshot
 
     The screenshot_day1 shows the first half page of the UI as in the first image provided in the mockup created by me with the help of AI.
-    

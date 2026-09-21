@@ -1,17 +1,15 @@
-# day2
+##Today's Objective
 
-A new Flutter project.
+To continue building the UI from the first image of the mockup using AI while learning how the code works and how to create reusable Flutter widgets.
 
-## Getting Started
+##Status
 
-This project is a starting point for a Flutter application.
+Successfully created the Date Selector, Breakfast and Lunch sections, including reusable meal cards, food information and calorie progress indicators.
 
-A few resources to get you started if this is your first Flutter project:
+##Things Learned
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Today I learned how to create reusable widgets using constructor parameters, how to pass different values to the same widget and I learned about runApp, MaterialApp, Scaffold, Containers, Row, Column, ListView, BoxDecoration, Difference between child and children, MainAxisAlignment and CrossAxisAlignment.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##Screenshot
+
+The screenshot_day2 shows the progress made on the first image of the mockup, including the date selector, breakfast section and lunch section, created by me with the help of AI.
