@@ -1,19 +1,35 @@
 import 'package:flutter/material.dart';
 
+import 'mobile_frame.dart';
+import '../screens/statistics_screen.dart';
+
 class CalorieCard extends StatelessWidget {
   const CalorieCard({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      height: 99,
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
-      decoration: BoxDecoration(
-        color: const Color(0xFFF0FAFC),
-        borderRadius: BorderRadius.circular(2),
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const Scaffold(
+              backgroundColor: Color(0xFFEDEFF0),
+              body: Center(child: MobileFrame(child: StatisticsScreen())),
+            ),
+          ),
+        );
+      },
+      child: Container(
+        width: double.infinity,
+        height: 99,
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+        decoration: BoxDecoration(
+          color: const Color(0xFFF0FAFC),
+          borderRadius: BorderRadius.circular(2),
+        ),
+        child: const Row(children: [CalorieInformation(), CalorieProgress()]),
       ),
-      child: const Row(children: [CalorieInformation(), CalorieProgress()]),
     );
   }
 }
@@ -109,7 +125,7 @@ class CalorieProgressRing extends StatelessWidget {
         backgroundColor: Colors.white,
         valueColor: const AlwaysStoppedAnimation<Color>(
           Color.fromARGB(255, 219, 7, 7),
-        ), //Color(0xFF397D90),
+        ),
       ),
     );
   }
