@@ -5,7 +5,6 @@ import '../widgets/calorie_card.dart';
 import '../widgets/nutrition_row.dart';
 import '../widgets/date_selector.dart';
 import '../widgets/meal_section.dart';
-import '../widgets/number_selector.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -37,8 +36,6 @@ class HomeContent extends StatelessWidget {
         NutritionRow(),
         SizedBox(height: 10),
         DateSelector(),
-        SizedBox(height: 12),
-        NumberSelector(n: 100),
         SizedBox(height: 12),
         MealSection(
           title: 'Breakfast',
