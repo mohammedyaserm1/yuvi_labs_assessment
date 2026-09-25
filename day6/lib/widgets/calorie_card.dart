@@ -55,7 +55,7 @@ class CalorieTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Row(
       children: [
-        const HollowBoltIcon(),
+        HollowBoltIcon(),
         SizedBox(width: 4),
         Text(
           'Today Calorie',

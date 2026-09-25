@@ -26,7 +26,7 @@ class CalorieCard extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
         decoration: BoxDecoration(
           color: const Color(0xFFF0FAFC),
-          borderRadius: BorderRadius.circular(2),
+          borderRadius: BorderRadius.circular(12),
         ),
         child: const Row(children: [CalorieInformation(), CalorieProgress()]),
       ),
@@ -119,8 +119,9 @@ class CalorieValue extends StatelessWidget {
         Text(
           '1980',
           style: TextStyle(
+            fontFamily: 'Neue Plak',
             fontSize: 29,
-            fontWeight: FontWeight.w500,
+            fontWeight: FontWeight.w800,
             color: Color(0xFF151515),
           ),
         ),
@@ -177,7 +178,7 @@ class CalorieRingPainter extends CustomPainter {
     final radius = size.width / 2 - 4;
 
     final backgroundPaint = Paint()
-      ..color = const Color(0xFFDDEFF4)
+      ..color = const Color(0xFFFFFFFF)
       ..style = PaintingStyle.stroke
       ..strokeWidth = 7;
 
@@ -191,7 +192,7 @@ class CalorieRingPainter extends CustomPainter {
 
     canvas.drawArc(
       Rect.fromCircle(center: center, radius: radius),
-      -90 * 3.1415926535 / 180,
+      -140 * 3.1415926535 / 180,
       2 * 3.1415926535 * progress,
       false,
       progressPaint,
